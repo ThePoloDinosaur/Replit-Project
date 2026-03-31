@@ -1,0 +1,8 @@
+{% extends "app/base.html" %}
+{% block page_title %}
+404 Not Found
+{% endblock page_title %}
+{% block page_content %}
+   <h1>Whoops. Looks like you found a 404 error!</h1>
+   <h2>You probably entered a bad link<a href={% url 'index'%} class='button'> go back to the home page</a></h1>
+{% endblock page_content%}
