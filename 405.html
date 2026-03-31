@@ -1,9 +1,0 @@
-{% extends "app/base.html" %}
-{% block page_title %}
-405 Method Not Allowed
-{% endblock page_title %}
-{% block page_content %}
-   <h1>Whoops. Looks like you are not allowed to access this part</h1>
-   <h2>You probably entered a bad link</h2>
-   <a href={% url 'index'%} class='button'> go back to the home page</a>
-{% endblock page_content%}
